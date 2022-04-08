@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main 
+ * main
  *
  * Return: Always (Success)
  */
@@ -24,4 +24,3 @@ int main(void)
 	return (0);
 
 }
-:%s/\s\+$//
