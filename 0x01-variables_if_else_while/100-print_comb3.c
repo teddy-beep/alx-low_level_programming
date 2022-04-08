@@ -1,9 +1,9 @@
 #include <stdio.h>
 
- /**
- * main - Entry point
+/**
+ * main - Prints all posible combination of two different digits, in ascending order, separeted by a comma followed by a space.
  *
- * Return: success
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -23,5 +23,7 @@ putchar(',');
 putchar(' ');
 }
 }
+putchar('\n');
+
 return (0);
 }
