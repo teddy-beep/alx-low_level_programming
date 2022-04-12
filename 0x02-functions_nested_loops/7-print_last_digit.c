@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Print_last_digit - Prints the last digit of a number.
+ * print_last_digit - Prints the last digit of a number.
  * @n: Then number in quetion
  *
  * Return: Value of the last digit
