@@ -9,7 +9,7 @@ int main (void)
 {
 int count;
 unsigned long i, j, k;
-unsigned long m, n, p, caryy;
+unsigned long m, n, p, cary;
 
 count = 0;
 i = 0;
