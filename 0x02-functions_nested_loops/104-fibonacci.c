@@ -11,6 +11,7 @@ int count;
 unsigned long i, j, k;
 unsigned long m, n, p, caryy;
 
+count = 0;
 i = 0;
 j = 1;
 for (count = 1; count <= 91; count++;)
