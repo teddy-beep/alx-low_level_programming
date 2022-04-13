@@ -38,7 +38,7 @@ if (p >= 100)
 else
 	printf("%lu0%lu", k, p);
 if (count != 98)
-	printf(",");
+	printf(", ");
 count++;
 }
 putchar("\n");
