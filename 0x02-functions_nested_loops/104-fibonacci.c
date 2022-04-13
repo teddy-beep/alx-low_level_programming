@@ -42,6 +42,6 @@ if (count != 98)
 	printf(", ");
 count++;
 }
-printf("\n");
+putchar("\n");
 return (0);
 }
