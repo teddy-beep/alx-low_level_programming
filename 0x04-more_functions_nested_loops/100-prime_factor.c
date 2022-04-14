@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+
 /**
  * main - prints factor of 612852475143
  * 
