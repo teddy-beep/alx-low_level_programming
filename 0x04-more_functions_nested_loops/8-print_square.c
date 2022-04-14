@@ -19,7 +19,7 @@ _putchar (35);
 _putchar ('\n');
 }
 }
-else 
+else
 {
 _putchar ('\n');
 }
