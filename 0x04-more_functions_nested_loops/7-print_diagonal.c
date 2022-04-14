@@ -20,7 +20,7 @@ _putchar (92);
 _putchar ('\n');
 }
 }
-esle
+else
 {
 _putchar ('\n');
 }
