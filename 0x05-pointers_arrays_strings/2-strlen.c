@@ -8,7 +8,10 @@
 
 int _strlen(chat *s)
 {
-char *s;
-int len;
-len = strlen(*s);
+int len = 0;
+while (s[len] != '\0')
+{
+len++;
+}
+return (len);
 }
