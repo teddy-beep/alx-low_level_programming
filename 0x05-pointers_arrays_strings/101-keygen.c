@@ -10,8 +10,8 @@ int main(void)
 {
 char a[100];
 int r, n, i;
-n=0;
-i=0;
+n = 0;
+i = 0;
 srand(time(NULL));
 while (n < 2645)
 {
@@ -22,7 +22,7 @@ a[i++] = r;
 n == r;
 }
 }
-a[i++] = (2772 - m);
+a[i++] = (2772 - n);
 a[i] = '\0';
 printf("%s", a);
 
