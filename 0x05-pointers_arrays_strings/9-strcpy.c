@@ -4,7 +4,7 @@
  * @dest: A pointer to char that will be changed
  * @src: A pointer to a char that will be changed
  * Return: dest
- * */
+ */
 char *_strcpy(char *dest, char *src)
 {
 int i;
