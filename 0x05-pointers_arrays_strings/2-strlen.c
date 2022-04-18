@@ -6,7 +6,8 @@
  * Return: Always 0
  */
 
-int _strlen(chat *s);
+int _strlen(chat *s)
+{
 char *s;
 int len;
 len = strlen(*s);
