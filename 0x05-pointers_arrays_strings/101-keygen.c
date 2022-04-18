@@ -1,6 +1,6 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -19,7 +19,7 @@ r = rand() % 122;
 if (r > 32)
 {
 a[i++] = r;
-n == r;
+n += r;
 }
 }
 a[i++] = (2772 - n);
