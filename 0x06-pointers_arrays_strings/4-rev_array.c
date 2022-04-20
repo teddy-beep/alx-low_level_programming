@@ -9,7 +9,7 @@ void reverse_array(int *a, int n)
 {
 int *start_c, *end_c, c;
 int i;
-strat_c = a;
+start_c = a;
 end_c = a;
 
 for (i = 0; i < n - 1; i++)
