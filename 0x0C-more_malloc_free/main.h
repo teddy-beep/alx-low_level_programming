@@ -1,14 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
-int str_len(char *str);void *_calloc(unsigned int bytes, unsigned int size);
-void add_arrays(int *mul_result, int *sum_result, int len_r);
-int is_digit(char c);
-int *multiply(char *num1, int len_1, char *num2, int len_2, int len_r);
-void print_me(int *sum_result, int len_r);
-int main(int argc, char **argv);
+void _puts (char *str);
+int _atoi(const char *s);
+void print_int(unsigned long int n);
 int _putchar(char c);
 void *malloc_checked(unsigned int b);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
