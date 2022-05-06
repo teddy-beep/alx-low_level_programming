@@ -30,26 +30,26 @@ return (retval *neg);
  */
 int main(int argc, char *argv[])
 {
-int num1, num2, i, j;
+int a, b, num1, num2;
 unsigned long mul;
 if (argc != 3)
 {
 printf("Error\n");
 exit(98);
 }
-for (i = 1; i < argc; i++)
+for (num1 = 1; num1 < argc; num1++)
 {
-for (j = 0; argv[i][j] != '\0'; j++)
+for (num2 = 0; argv[num1][num2] != '\0'; num2++)
 {
-if (argv[i][j] > 57 || argv[i][j] < 48)
+if (argv[num1][num2] > 57 || argv[num1][num2] < 48)
 {
 printf("Error\n");
 exit(98);
 }
 }
 }
-num1 = _atoi(argv[1]);
-num2 = _atoi(argv[2]);
+a = _atoi(argv[1]);
+b = _atoi(argv[2]);
 mul = num1 *num2;
 printf("%lu\n", mul);
 return (0);
