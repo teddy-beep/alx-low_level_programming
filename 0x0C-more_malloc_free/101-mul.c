@@ -50,7 +50,7 @@ exit(98);
 }
 a = _atoi(argv[1]);
 b = _atoi(argv[2]);
-mul = num1 *num2;
+mul = a *b;
 printf("%lu\n", mul);
 return (0);
 }
