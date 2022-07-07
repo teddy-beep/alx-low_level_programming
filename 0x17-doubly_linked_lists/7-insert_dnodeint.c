@@ -45,8 +45,3 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	actnode->next = nnode;
 	return (nnode);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-
